@@ -11,7 +11,7 @@ import SwiftUI
 struct PtziApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Images()
         }
     }
 }

@@ -11,6 +11,9 @@
 		080252EC2A4217E600CDBE11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080252EB2A4217E600CDBE11 /* ContentView.swift */; };
 		080252EE2A4217E800CDBE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080252ED2A4217E800CDBE11 /* Assets.xcassets */; };
 		080252F22A4217E800CDBE11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080252F12A4217E800CDBE11 /* Preview Assets.xcassets */; };
+		080252FE2A42469700CDBE11 /* TextoModificadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080252FD2A42469700CDBE11 /* TextoModificadores.swift */; };
+		080253002A424A8D00CDBE11 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080252FF2A424A8D00CDBE11 /* Buttons.swift */; };
+		080253022A42584B00CDBE11 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080253012A42584B00CDBE11 /* Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,13 @@
 		080252ED2A4217E800CDBE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080252EF2A4217E800CDBE11 /* Ptzi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ptzi.entitlements; sourceTree = "<group>"; };
 		080252F12A4217E800CDBE11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		080252F82A42309D00CDBE11 /* variablesConstantes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = variablesConstantes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		080252FA2A4238EB00CDBE11 /* funciones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = funciones.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		080252FB2A423D2000CDBE11 /* estructura.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = estructura.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		080252FC2A42432A00CDBE11 /* ComputerProperties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ComputerProperties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		080252FD2A42469700CDBE11 /* TextoModificadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextoModificadores.swift; sourceTree = "<group>"; };
+		080252FF2A424A8D00CDBE11 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		080253012A42584B00CDBE11 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +62,15 @@
 		080252E82A4217E600CDBE11 /* Ptzi */ = {
 			isa = PBXGroup;
 			children = (
+				080252F92A4238C900CDBE11 /* Playgrounds */,
 				080252E92A4217E600CDBE11 /* PtziApp.swift */,
 				080252EB2A4217E600CDBE11 /* ContentView.swift */,
 				080252ED2A4217E800CDBE11 /* Assets.xcassets */,
 				080252EF2A4217E800CDBE11 /* Ptzi.entitlements */,
 				080252F02A4217E800CDBE11 /* Preview Content */,
+				080252FD2A42469700CDBE11 /* TextoModificadores.swift */,
+				080252FF2A424A8D00CDBE11 /* Buttons.swift */,
+				080253012A42584B00CDBE11 /* Images.swift */,
 			);
 			path = Ptzi;
 			sourceTree = "<group>";
@@ -67,6 +81,17 @@
 				080252F12A4217E800CDBE11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		080252F92A4238C900CDBE11 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				080252F82A42309D00CDBE11 /* variablesConstantes.playground */,
+				080252FA2A4238EB00CDBE11 /* funciones.playground */,
+				080252FB2A423D2000CDBE11 /* estructura.playground */,
+				080252FC2A42432A00CDBE11 /* ComputerProperties.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080252FE2A42469700CDBE11 /* TextoModificadores.swift in Sources */,
 				080252EC2A4217E600CDBE11 /* ContentView.swift in Sources */,
+				080253022A42584B00CDBE11 /* Images.swift in Sources */,
 				080252EA2A4217E600CDBE11 /* PtziApp.swift in Sources */,
+				080253002A424A8D00CDBE11 /* Buttons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
