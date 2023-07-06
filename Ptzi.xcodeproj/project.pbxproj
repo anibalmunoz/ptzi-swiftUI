@@ -20,6 +20,7 @@
 		080E6B302A435F0D0057942F /* ZstackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2F2A435F0D0057942F /* ZstackPadding.swift */; };
 		081F13912A575BF00066C471 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F13902A575BF00066C471 /* TabViews.swift */; };
 		081F13932A575D230066C471 /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F13922A575D230066C471 /* Navigations.swift */; };
+		081F13952A5766DA0066C471 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F13942A5766DA0066C471 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		080E6B2F2A435F0D0057942F /* ZstackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPadding.swift; sourceTree = "<group>"; };
 		081F13902A575BF00066C471 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
 		081F13922A575D230066C471 /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
+		081F13942A5766DA0066C471 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				080E6B2F2A435F0D0057942F /* ZstackPadding.swift */,
 				081F13902A575BF00066C471 /* TabViews.swift */,
 				081F13922A575D230066C471 /* Navigations.swift */,
+				081F13942A5766DA0066C471 /* Player.swift */,
 			);
 			path = Ptzi;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				080E6B2C2A43558B0057942F /* Dividers.swift in Sources */,
 				080252EC2A4217E600CDBE11 /* ContentView.swift in Sources */,
 				080E6B2E2A4357F70057942F /* HstackVstackSpacer.swift in Sources */,
+				081F13952A5766DA0066C471 /* Player.swift in Sources */,
 				080253022A42584B00CDBE11 /* Images.swift in Sources */,
 				080252EA2A4217E600CDBE11 /* PtziApp.swift in Sources */,
 				081F13912A575BF00066C471 /* TabViews.swift in Sources */,
