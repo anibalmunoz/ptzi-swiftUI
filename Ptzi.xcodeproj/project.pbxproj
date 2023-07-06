@@ -18,6 +18,8 @@
 		080E6B2C2A43558B0057942F /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2B2A43558B0057942F /* Dividers.swift */; };
 		080E6B2E2A4357F70057942F /* HstackVstackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2D2A4357F70057942F /* HstackVstackSpacer.swift */; };
 		080E6B302A435F0D0057942F /* ZstackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2F2A435F0D0057942F /* ZstackPadding.swift */; };
+		081F13912A575BF00066C471 /* TabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F13902A575BF00066C471 /* TabViews.swift */; };
+		081F13932A575D230066C471 /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F13922A575D230066C471 /* Navigations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		080E6B2B2A43558B0057942F /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
 		080E6B2D2A4357F70057942F /* HstackVstackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackVstackSpacer.swift; sourceTree = "<group>"; };
 		080E6B2F2A435F0D0057942F /* ZstackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPadding.swift; sourceTree = "<group>"; };
+		081F13902A575BF00066C471 /* TabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViews.swift; sourceTree = "<group>"; };
+		081F13922A575D230066C471 /* Navigations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				080E6B2B2A43558B0057942F /* Dividers.swift */,
 				080E6B2D2A4357F70057942F /* HstackVstackSpacer.swift */,
 				080E6B2F2A435F0D0057942F /* ZstackPadding.swift */,
+				081F13902A575BF00066C471 /* TabViews.swift */,
+				081F13922A575D230066C471 /* Navigations.swift */,
 			);
 			path = Ptzi;
 			sourceTree = "<group>";
@@ -182,8 +188,10 @@
 				080E6B2E2A4357F70057942F /* HstackVstackSpacer.swift in Sources */,
 				080253022A42584B00CDBE11 /* Images.swift in Sources */,
 				080252EA2A4217E600CDBE11 /* PtziApp.swift in Sources */,
+				081F13912A575BF00066C471 /* TabViews.swift in Sources */,
 				080253002A424A8D00CDBE11 /* Buttons.swift in Sources */,
 				080E6B2A2A4351A20057942F /* TextFields.swift in Sources */,
+				081F13932A575D230066C471 /* Navigations.swift in Sources */,
 				080E6B302A435F0D0057942F /* ZstackPadding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
