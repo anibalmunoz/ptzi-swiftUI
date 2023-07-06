@@ -14,6 +14,10 @@
 		080252FE2A42469700CDBE11 /* TextoModificadores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080252FD2A42469700CDBE11 /* TextoModificadores.swift */; };
 		080253002A424A8D00CDBE11 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080252FF2A424A8D00CDBE11 /* Buttons.swift */; };
 		080253022A42584B00CDBE11 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080253012A42584B00CDBE11 /* Images.swift */; };
+		080E6B2A2A4351A20057942F /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B292A4351A20057942F /* TextFields.swift */; };
+		080E6B2C2A43558B0057942F /* Dividers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2B2A43558B0057942F /* Dividers.swift */; };
+		080E6B2E2A4357F70057942F /* HstackVstackSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2D2A4357F70057942F /* HstackVstackSpacer.swift */; };
+		080E6B302A435F0D0057942F /* ZstackPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080E6B2F2A435F0D0057942F /* ZstackPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		080252FD2A42469700CDBE11 /* TextoModificadores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextoModificadores.swift; sourceTree = "<group>"; };
 		080252FF2A424A8D00CDBE11 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		080253012A42584B00CDBE11 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		080E6B292A4351A20057942F /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		080E6B2B2A43558B0057942F /* Dividers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividers.swift; sourceTree = "<group>"; };
+		080E6B2D2A4357F70057942F /* HstackVstackSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HstackVstackSpacer.swift; sourceTree = "<group>"; };
+		080E6B2F2A435F0D0057942F /* ZstackPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZstackPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,10 @@
 				080252FD2A42469700CDBE11 /* TextoModificadores.swift */,
 				080252FF2A424A8D00CDBE11 /* Buttons.swift */,
 				080253012A42584B00CDBE11 /* Images.swift */,
+				080E6B292A4351A20057942F /* TextFields.swift */,
+				080E6B2B2A43558B0057942F /* Dividers.swift */,
+				080E6B2D2A4357F70057942F /* HstackVstackSpacer.swift */,
+				080E6B2F2A435F0D0057942F /* ZstackPadding.swift */,
 			);
 			path = Ptzi;
 			sourceTree = "<group>";
@@ -165,10 +177,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				080252FE2A42469700CDBE11 /* TextoModificadores.swift in Sources */,
+				080E6B2C2A43558B0057942F /* Dividers.swift in Sources */,
 				080252EC2A4217E600CDBE11 /* ContentView.swift in Sources */,
+				080E6B2E2A4357F70057942F /* HstackVstackSpacer.swift in Sources */,
 				080253022A42584B00CDBE11 /* Images.swift in Sources */,
 				080252EA2A4217E600CDBE11 /* PtziApp.swift in Sources */,
 				080253002A424A8D00CDBE11 /* Buttons.swift in Sources */,
+				080E6B2A2A4351A20057942F /* TextFields.swift in Sources */,
+				080E6B302A435F0D0057942F /* ZstackPadding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
